@@ -36,6 +36,7 @@ Not available at this time
 - JavaScript
 - HTML
 - Bootstrap
+- JSitor
 
 ### What I learned
 
@@ -50,6 +51,7 @@ Many thanks to Mammoth Interactive for their tutorial for this process. Up until
 
 - [W3Schools CSS Reference Sheet](https://www.w3schools.com/cssref/) - Very handy resource!
 - [Build Websites with JavaScript for Absolute Beginners](https://training.mammothinteractive.com/courses/1955452) - Great tutorial with lots of information that I got on [HumbleBundle](https://www.humblebundle.com/).
+- [JSitor](https://jsitor.com/) - Awesome website for quickly writing JS, HTML & CSS
 
 
 ## Author
