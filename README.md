@@ -44,7 +44,7 @@ Many thanks to Mammoth Interactive for their tutorial for this process. Up until
 ### Continued development
 
 - January 16, 2023
- - I finished the tutorial and added comments as I went along to explain functionality. I might come back to this later with more CSS or to learn more about Bootstrap
+  - I finished the tutorial and added comments as I went along to explain functionality. I might come back to this later with more CSS or to learn more about Bootstrap
 
 ### Useful resources
 
