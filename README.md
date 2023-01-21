@@ -5,14 +5,13 @@ A super simple chat bot made following a tutorial from Mammoth Interactive. The 
 
 - [Overview](#overview)
   - [The Idea](#the-idea)
-  - [Screenshots](#screenshots)
+  - [Screenshot](#screenshot)
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -45,8 +44,11 @@ Many thanks to Mammoth Interactive for their tutorial for this process. Up until
 
 ### Continued development
 
-- January 16, 2023
-  - I finished the tutorial and added comments as I went along to explain functionality. I might come back to this later with more CSS or to learn more about Bootstrap
+- 2023
+  - January 20
+    - Added a screenshot and a link to the readme file
+  - January 16
+    - I finished the tutorial and added comments as I went along to explain functionality. I might come back to this later with more CSS or to learn more about Bootstrap
 
 ### Useful resources
 
