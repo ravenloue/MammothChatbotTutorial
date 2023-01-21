@@ -27,7 +27,8 @@ This is a very simplistic chat-bot that uses JavaScript commands to prompt a use
 
 ### Screenshot
 
-Not available at this time
+![Chatbot](https://ravenloue.github.io/MammothChatbotTutorial/ChatbotScreenshot.png)
+[Link to Chatbot](https://ravenloue.github.io/MammothChatbotTutorial/MammothChatbotTutorial.html)
 
 ## My process
 
