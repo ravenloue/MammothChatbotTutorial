@@ -1,4 +1,5 @@
 var questionNumber = 0;
+var bdYear = 0;
 
 const response = document.getElementById("response");
 const answerForm = document.getElementById("answerForm");
@@ -40,6 +41,9 @@ function calculateNextBirthday(){
 
   response.innerText = "You said your birthday is on "+birthdayAnswer+". Your next birthday is in "
                        +calculateDifferenceInDays(birthdayDate)+" days.";
+  
+  return birthdayYear;
+  
   };
 
 /**
@@ -123,7 +127,7 @@ function runChatbot(){
     answerForm.style.display="none";
 
   }else if(questionNumber === 1){
-    calculateNextBirthday();
+    bdYear = calculateNextBirthday();
     question.innerText = "What is your favorite holiday?";
 
     birthdayForm.style.display = "none";
@@ -137,8 +141,12 @@ function runChatbot(){
     answerForm.style.display = "block";
     answer.value="";
   }else if(questionNumber === 3){
-    
-    const birthYear = new Date().getFullYear() - answer.value;
+    birthYear = 0;
+    if (bdYear > new Date().getFullYear()){
+      birthYear = new Date().getFullYear() - answer.value;
+    }else{
+      birthYear = new Date().getFullYear() - answer.value - 1;
+    }
         
     response.innerText = "Based on your age, you were born in "+birthYear+".";
     question.innerText = "Thanks for playing!";
