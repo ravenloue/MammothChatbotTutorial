@@ -10,20 +10,20 @@
         crossorigin="anonymous">
   </head>
 
-  <body>
-    <h1>Welcome to Chat</h1>
-	  <p id="response"></p>
-    <p id="question">What is your name?</p>
+  <body><main class="container bg-dark-subtle border border-3 border-secondary rounded ms-auto me-auto shadow-lg" style="margin-top: 35vh; padding: 50px; max-width: fit-content; text-align: center;" >
+    <h1>Welcome to Chat</h1><br />
+	  <p id="response"></p><br />
+    <p id="question">What is your name?</p><br />
     
     
-    <form id="answerForm">
+    <form id="answerForm" class="ms-5 me-auto">
       <div class="input-group">
       <input placeholder="Enter answer here" type="text" id="answer" value=""
              class="form-control-sm" aria-label="Enter answer here">
       <button type="submit" class="btn btn-info">Submit</button>
     </form>
     </div>
-    <form id="birthdayForm" style="display: none;">
+    <form id="birthdayForm" style="display: none;" class="ms-auto me-auto">
 	    <div class="input-group">
         <select name="months" id="months" aria-label="Month">
         <option value="January">January</option>
@@ -46,7 +46,7 @@
       </div>
     </form>
 
-    <form id="holidayForm" style="display: none;">
+    <form id="holidayForm" style="display: none;" class="ms-auto me-auto>
 	    <div class="input-group">
       <select name="holidays" id="holidays" aria-label="Select Holiday">
         <option value="Chinese New Year">Chinese New Year</option>
@@ -62,10 +62,11 @@
     </form>
 
     <button id="restartButton" style="display: none;"
-            class="btn btn-success">Restart</button>
+            class="btn btn-success ms-auto me-auto">Restart</button>
 
 
     <script src="script.js"></script>
+    </main>
   </body>
   
 </html>

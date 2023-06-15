@@ -39,7 +39,7 @@ function calculateNextBirthday(){
     birthdayDate = new Date(birthdayYear + "-" + birthdayMonth + "-" + birthdayDay);
   }
 
-  response.innerText = "You said your birthday is on "+birthdayAnswer+". Your next birthday is in "
+  response.innerText = "You said your birthday is on "+birthdayAnswer+"."+`\n`+" Your next birthday is in "
                        +calculateDifferenceInDays(birthdayDate)+" days.";
   
   return birthdayYear;
