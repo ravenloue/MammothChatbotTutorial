@@ -45,6 +45,10 @@ Many thanks to Mammoth Interactive for their tutorial for this process. Up until
 ### Continued development
 
 - 2023
+  - June 14
+    - Fixed the age guessing part by adding a return statement and comparing the date from the "next birthday" guess to the current date to make sure if the birthday had passed already or not.
+    - Modified the appearance to be a little more clean
+      - Added borders and centered the elements on the page
   - January 20
     - Added a screenshot and a link to the readme file
   - January 16
